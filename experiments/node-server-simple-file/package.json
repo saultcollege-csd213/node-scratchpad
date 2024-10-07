@@ -1,0 +1,12 @@
+{
+  "name": "node-server-simple-file",
+  "version": "1.0.0",
+  "description": "A simple file server built using only standard node modules",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

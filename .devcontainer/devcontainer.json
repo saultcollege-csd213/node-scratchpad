@@ -1,0 +1,23 @@
+{
+    "name": "CSD213 Node Scratchpad",
+    "runArgs": ["--name", "csd213-node-scratchpad" ],
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node",
+    "postStartCommand": "git config --global --add safe.directory /workspaces/node-scratchpad",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vsliveshare.vsliveshare",
+                "yzhang.markdown-all-in-one",
+                "esbenp.prettier-vscode",
+                "ms-vscode-remote.vscode-remote-extensionpack",
+                "github.copilot",
+                "github.copilot-chat"
+                
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/warrenbuckley/codespace-features/sqlite:1": {}
+    }
+
+}

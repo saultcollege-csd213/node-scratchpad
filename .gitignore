@@ -1,0 +1,6 @@
+# Don't include SSL certificates
+*.cert
+*.key
+
+# Ignore Node modules
+node_modules

@@ -1,0 +1,7 @@
+# First Post
+
+Hi there! This is my first post on my [blog](/). It uses a very simple dynamic Node JS server. Here's how it works:
+
+- When the server receives a **request** for a path like '/' or '/posts/first-post' it looks for a file at that path
+- If it finds one, it **loads** the file, then does some simple text processing to convert it into an HTML document
+- It uses the HTML document as the **body** of the response

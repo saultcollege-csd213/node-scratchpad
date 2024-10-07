@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Simple Node File Server",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/experiments/node-server-simple-file/server.js",
+            "cwd": "${workspaceFolder}/experiments/node-server-simple-file",
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Simple Node MPA Server",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/experiments/node-server-simple-mpa/server.js",
+            "cwd": "${workspaceFolder}/experiments/node-server-simple-mpa"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Simple Node HTTPS Server",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/experiments/node-server-simple-auth/server.js",
+            "cwd": "${workspaceFolder}/experiments/node-server-simple-auth",
+            "env": {
+                "HTTPS_KEY": "${workspaceFolder}/experiments/node-server-simple-auth/ssl/server.key",
+                "HTTPS_CERT": "${workspaceFolder}/experiments/node-server-simple-auth/ssl/server.cert",
+            }
+        },
+    ]
+}

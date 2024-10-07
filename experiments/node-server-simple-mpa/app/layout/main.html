@@ -1,0 +1,22 @@
+<!-- 
+ 
+Our template parser will find placeholders in this template like the TITLE and CONTENT 
+and replace them with the content from the page that is being rendered.
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="data:,">
+    <title>Simple MPA Server - %TITLE%</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+    </nav>
+    <main>
+        %CONTENT%
+    </main>
+</body>
+</html>

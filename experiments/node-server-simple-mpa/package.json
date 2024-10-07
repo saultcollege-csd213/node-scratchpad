@@ -1,0 +1,12 @@
+{
+  "name": "node-server-simple-mpa",
+  "version": "1.0.0",
+  "description": "A simple Multi-Page App server built using only standard node modules plus a simple custom template parser",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

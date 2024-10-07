@@ -1,0 +1,17 @@
+[
+  {
+    "username": "alice",
+    "unhashed_password": "badpassword"
+  },
+  {
+    "username": "test",
+    "unhashed_password": "test"
+  },
+  {
+    "fullname": "Rod",
+    "email": "r@r.com",
+    "phone": "",
+    "username": "rod",
+    "unhashed_password": "password"
+  }
+]
