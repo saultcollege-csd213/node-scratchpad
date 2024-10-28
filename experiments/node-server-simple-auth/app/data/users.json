@@ -13,5 +13,12 @@
     "phone": "",
     "username": "rod",
     "unhashed_password": "password"
+  },
+  {
+    "fullname": "testy",
+    "email": "test@test.com",
+    "phone": "",
+    "username": "testy",
+    "unhashed_password": "password"
   }
 ]

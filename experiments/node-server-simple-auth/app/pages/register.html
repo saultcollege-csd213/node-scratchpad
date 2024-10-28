@@ -9,6 +9,7 @@
     <h1>Register</h1>
     <p id="message"></p>
     <form method="POST" action="/register">
+        <!-- CSRF -->
         <input type="text" id="fullname" name="fullname" placeholder="Full name" required>
         <br>
         <input type="email" id="email" name="email" placeholder="Email" required>
@@ -30,7 +31,7 @@
         if ( params.has("message") ) {
             let messages = params.getAll("message");
             if ( messages.length === 1) {
-                document.getElementById("message").innerText = message;
+                document.getElementById("message").innerText = message[0];
             } else {
                 let messageList = document.createElement("ul");
                 messages.forEach( message => {
